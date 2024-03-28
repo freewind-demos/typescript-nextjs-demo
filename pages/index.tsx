@@ -10,7 +10,7 @@ const IndexPage = () => {
       <button onClick={() => setCount(n => n + 1)}>Click to increase: {count}</button>
       <p>
         <Link href="/about">
-          <a>About</a>
+        About
         </Link>
       </p>
     </Layout>
